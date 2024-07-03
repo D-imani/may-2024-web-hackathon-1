@@ -1,0 +1,115 @@
+*{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+body{
+    background-color: #fff1e4;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+}
+nav{
+    padding-top:10px;
+    height:60px;
+    background-color: #5d3d1d ;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.intro{
+    display: flex;
+    padding: 10px;
+}
+.hello{
+    text-align: center;
+    margin: auto;
+}
+
+.portfolio{
+    height:200px;
+
+}
+.portfolio1{
+    text-align: center;
+    
+}
+.portfolio1 img{
+    height:150px;
+    width:250px;
+    border-radius: 10px;
+}
+.contact{
+    display: flex;
+    height: 200px;
+}
+.contact1{
+    text-align: center;
+    margin: auto;
+}
+.contact2{
+    text-align: center;
+    margin: auto;
+}
+.contact2 ul{
+    list-style: none;
+}
+.skills{
+    display: flex;
+    height:200px;
+}
+.skills li{
+    list-style:none;
+}
+.skills1{
+    text-align: center;
+    margin: auto;
+}
+.skills2{
+    text-align: center;
+    margin: auto;
+}
+.education{
+    margin:20px;
+    height:200px;
+}
+.uni{
+    display: flex;
+}
+.mmu2{
+    text-align: center;
+    margin: auto;
+}
+.mmu{
+    text-align: center;
+    margin: auto;
+}
+.mmu img{
+    height: 100px;
+    width: 100px;
+}
+.ingressive{
+    display: flex;
+}
+.ing2{
+    text-align: center;
+    margin: auto;
+}
+.saf{
+    display: flex;
+}
+.saf1{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+footer{
+    height:100px;
+    background-color: #5d3d1d;
+}
