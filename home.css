@@ -5,21 +5,26 @@
 }
 body{
     background-color: #fff1e4;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family:  "Montserrat", sans-serif;
 }
 main{
     max-width: 800px;
     margin: auto;
 }
 nav{
-    padding-top:10px;
     height:60px;
     background-color: #5d3d1d ;
-    color: white;
+    color: white; 
+    font-family: "Playfair Display", serif;
 }
 nav ul{
     list-style: none;
     display: flex;
     margin: auto;
+    padding: 20px;
+    text-align: center;
 }
 .intro{
     display: flex;
@@ -29,10 +34,12 @@ nav ul{
     text-align: center;
     margin: auto;
 }
-
+.hello h1{
+    color:palevioletred;
+}
 .portfolio{
     height:200px;
-
+    display: flex;
 }
 .portfolio1{
     text-align: center;
@@ -42,6 +49,13 @@ nav ul{
     height:150px;
     width:250px;
     border-radius: 10px;
+}
+.portfolio2{
+    text-align: center;
+}
+.portfolio2 img{
+    height: 150px;
+    width: auto;
 }
 .contact{
     display: flex;
@@ -101,15 +115,22 @@ nav ul{
 }
 .saf{
     display: flex;
+    padding: 20px;
 }
 .saf1{
     text-align: center;
     margin: auto;
 }
-
+.saf2 img{
+    height: 150px;
+    width: 250px;
+    justify-content: center;
+}
 
 
 footer{
     height:100px;
     background-color: #5d3d1d;
+    position: fixed;
+
 }
